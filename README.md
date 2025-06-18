@@ -13,3 +13,37 @@ I approached the task with three lenses:
 
 ## Structure
 
+original/tictactoe.py → Original code
+revised/tictactoe.py → My revised version
+ai_transcript/ → ChatGPT discussion + feedback
+review_notes.md → Optional extra notes (if needed)
+
+
+---
+
+## AI Usage
+
+I used OpenAI’s ChatGPT-4 (gpt-4o model) to assist with:
+- Reviewing specific functions for readability and logic
+- Suggesting refactors for modularity and clarity
+- Identifying edge cases and recommending validation logic
+
+Chat transcript is included in `ai_transcript/chatgpt_review.pdf`.
+
+---
+
+## Key Improvements
+
+### 🔧 Functionality
+- Added validation for invalid or repeated moves
+- Prevented out-of-range access on board
+- Clearer win/draw detection logic
+
+### ✨ Style
+- Broke large functions into smaller, named helpers
+- Improved variable naming for clarity
+- Removed redundant conditions and nested blocks
+
+### 🔮 Expandability
+- Suggested (not implemented) class-based design for Game, Board, Player
+- Commented on separation of game logic and CLI UI
